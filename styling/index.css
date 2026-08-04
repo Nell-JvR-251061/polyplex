@@ -1,0 +1,54 @@
+@import url("./main.css");
+
+body, .logo-container:hover{
+background-color: var(--pal-pink);
+}
+
+.logo-container, .navbar .nav-link.active, .nav-button:hover{
+    color: var(--pal-pink);
+}
+
+nav, .nav-button{
+    border-color: var(--pal-blue);
+}
+
+.nav-title, .nav-button, .logo-container:hover{
+    color: var(--pal-blue);
+}
+
+.logo-container, .navbar .nav-link.active, .nav-button:hover{
+    background-color: var(--pal-blue);
+}
+
+
+/* body{
+    background-color: var(--pal-pink);
+}
+
+nav{
+    border-color: var(--pal-blue);
+}
+
+.nav-title{
+    color: var(--pal-blue);
+}
+
+.logo-container{
+    color: var(--pal-pink);
+    background-color: var(--pal-blue);
+}
+
+.logo-container:hover{
+    color: var(--pal-blue);
+    background-color: var(--pal-pink);
+}
+
+.nav-button{
+    color: var(--pal-blue);
+    border-color: var(--pal-blue);
+}
+
+.active, .nav-button:hover{
+    color: var(--pal-pink) !important;
+    background-color: var(--pal-blue);
+} */

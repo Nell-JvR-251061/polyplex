@@ -1,0 +1,133 @@
+:root {
+  /*------------------------------Colour Palette------------------------------*/
+  --pal-beige: #f4e4c3;
+  --pal-pink: #ea7e9e;
+  --pal-orange: #f79d08;
+  --pal-red: #e3552d;
+  --pal-blue: #0688c2;
+  --pal-green: #35a668;
+}
+
+/*------------------------------Fonts------------------------------*/
+/* Ubuntu */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-italic {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Super Starfish */
+@font-face {
+  font-family: starfish;
+  src: url("../assets/Super Starfish.woff2");
+}
+
+.starfish-regular {
+  font-family: "starfish";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*------------------------------General Styling------------------------------*/
+/* Navbar */
+nav {
+  border-top: 10px solid;
+  border-bottom: 10px solid;
+  background-color: transparent;
+}
+
+.nav-title {
+  font-size: clamp(3.5rem, 2.5vw, 4rem);
+}
+
+.logo-container {
+  width: 4%;
+  aspect-ratio: 1 / 1;
+  font-size: clamp(3.5rem, 2.5vw, 6rem);
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+  padding: 0;
+}
+
+.logo {
+  padding-top: 10%;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
+
+.nav-button {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  border: 6px solid;
+}
+
+.nav-button:hover {
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.profile-link {
+  width: 4.5%;
+}
