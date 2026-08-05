@@ -130,3 +130,8 @@ nav {
 .profile-link {
   width: 4.5%;
 }
+
+/* Shape Cards */
+.shape-card{
+  border: 10px solid;
+}

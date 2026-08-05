@@ -1,0 +1,90 @@
+@import url("./main.css");
+
+body {
+  background-color: var(--pal-beige);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='-14 20 90 90'%3E%3Ccircle fill='%2335A668' fill-opacity='0.5' cx='45' cy='45' r='25'/%3E%3Cg fill='%23F4E4C3' fill-opacity='0.5'%3E%3Ccircle cx='0' cy='90' r='5'/%3E%3Ccircle cx='90' cy='90' r='5'/%3E%3Ccircle cx='90' cy='0' r='5'/%3E%3Ccircle cx='0' cy='0' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+nav,
+.logo-container:hover {
+  background-color: var(--pal-beige);
+}
+
+.logo-container,
+.navbar .nav-link.active,
+.nav-button:hover {
+  color: var(--pal-beige);
+}
+
+nav,
+.nav-button {
+  border-color: var(--pal-green);
+}
+
+.nav-title,
+.nav-button,
+.logo-container:hover {
+  color: var(--pal-green);
+}
+
+.logo-container,
+.navbar .nav-link.active,
+.nav-button:hover {
+  background-color: var(--pal-green);
+}
+
+.user-banner, .battle-title{
+  color: var(--pal-green);
+  background-color: var(--pal-beige);
+  border-top: 10px solid var(--pal-green);
+  border-bottom: 10px solid var(--pal-green);
+}
+
+.battle-title{
+  border-right: 10px solid var(--pal-green);
+  border-left: 10px solid var(--pal-green);
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  fill: transparent;
+  stroke: red;
+  stroke-width: 2;
+}
+
+.shape-card{
+  border: 10px solid var(--pal-green);
+  background-color: var(--pal-beige);
+}
+
+.dropdown{
+  border: 10px solid var(--pal-green); 
+}
+
+.dropdown:hover{
+  background-color: var(--pal-green);
+  color: var(--pal-beige);
+}
+
+.dropdown-toggle{
+  border: none;
+}
+
+.trade-btn{
+  background-color: var(--pal-green);
+  border-radius: 0px;
+  color: var(--pal-beige);
+}
+
+.trade-btn:hover{
+  color: var(--pal-green);
+}
+
+.stat-container{
+  border: 10px solid var(--pal-green); 
+}
+
+.stat-row{
+  background-color: rgba(53, 166, 104, 0.5);
+}
