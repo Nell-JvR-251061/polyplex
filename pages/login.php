@@ -33,7 +33,7 @@
                 <label for="InputPassword1" class="form-label ubuntu-bold fs-5">Password</label>
                 <input placeholder="superSecret@here" type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn login-submit-btn fs-4">Submit</button>
+            <a type="submit" class="btn login-submit-btn fs-4" href="../pages/dashboard.php">Submit</a>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
