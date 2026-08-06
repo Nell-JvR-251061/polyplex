@@ -7,7 +7,6 @@
             <polygon
                 points="12,2 20.66,7 20.66,17 12,22 3.34,17 3.34,7"
                 fill="#D72CE6 "
-                stroke="black"
                 stroke-width="2" />
         </svg>
     </div>
