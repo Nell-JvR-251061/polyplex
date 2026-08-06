@@ -1,0 +1,64 @@
+@import url("./main.css");
+
+body {
+  background-color: #f4e4c3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23E3552D' fill-opacity='0.5' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+nav,
+.logo-container:hover {
+  background-color: var(--pal-beige);
+}
+
+.logo-container,
+.navbar .nav-link.active,
+.nav-button:hover {
+  color: var(--pal-beige);
+}
+
+nav,
+.nav-button {
+  border-color: var(--pal-red);
+}
+
+.nav-title,
+.nav-button,
+.logo-container:hover {
+  color: var(--pal-red);
+}
+
+.logo-container,
+.navbar .nav-link.active,
+.nav-button:hover {
+  background-color: var(--pal-red);
+}
+
+.login-form {
+  border: 10px solid var(--pal-red);
+  background-color: rgba(244, 228, 195, 1);
+  color: var(--pal-red);
+}
+
+.form-control{
+    border: 4px solid black;
+}
+
+.form-control:focus{
+    border-color: var(--pal-red);
+}
+
+.login-title{
+    border-top: 10px solid var(--pal-red);
+    border-bottom: 10px solid var(--pal-red);
+    background-color: var(--pal-beige);
+    color: var(--pal-red);
+}
+
+.login-submit-btn{
+    background-color: var(--pal-red);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 0px;
+}
+
+
