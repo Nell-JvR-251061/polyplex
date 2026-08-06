@@ -1,0 +1,88 @@
+@import url("./main.css");
+
+body {
+  background-color: #ea7e9e;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='107' height='107' viewBox='0 0 20 20'%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='%230688C2' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%230688C2' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+nav,
+.logo-container:hover {
+  background-color: var(--pal-pink);
+}
+
+.logo-container,
+.navbar .nav-link.active,
+.nav-button:hover {
+  color: var(--pal-pink);
+}
+
+nav,
+.nav-button {
+  border-color: var(--pal-blue);
+}
+
+.nav-title,
+.nav-button,
+.logo-container:hover {
+  color: var(--pal-blue);
+}
+
+.logo-container,
+.navbar .nav-link.active,
+.nav-button:hover {
+  background-color: var(--pal-blue);
+}
+
+.battle-title {
+  border: 10px solid var(--pal-blue);
+  color: var(--pal-blue);
+  background-color: var(--pal-pink);
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  fill: transparent;
+  stroke: black;
+  stroke-width: 2;
+}
+
+.shape-card {
+  border: 10px solid var(--pal-blue);
+  background-color: rgba(234, 126, 158, 0.5);
+}
+
+.dropdown {
+  border: 10px solid var(--pal-blue);
+  background-color: rgba(234, 126, 158, 0.5);
+}
+
+.dropdown:hover {
+  background-color: var(--pal-blue);
+}
+
+.dropdown-toggle {
+  border: none;
+}
+
+.opponent-box {
+  height: 72%;
+  border: 10px solid var(--pal-blue);
+  color: var(--pal-blue);
+  background-color: var(--pal-pink);
+}
+
+.opponent-box span{
+    font-size: clamp(10rem, 2.5vw, 10.5rem);
+}
+
+.fight-btn{
+    background-color: var(--pal-blue);
+    border-radius: 0px;
+    color: var(--pal-pink);
+}
+
+.fight-btn:hover{
+    color: var(--pal-blue);
+    background-color: var(--pal-pink);
+}
