@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="col d-flex justify-content-center">
-                <div class="dropdown p2">
+                <div class="dropdown d-flex justify-content-center">
                     <button class="btn dropdown-toggle fs-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Abilities
                     </button>
