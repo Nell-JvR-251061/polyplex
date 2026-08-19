@@ -20,12 +20,12 @@
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col ms-5 me-5 index-left p-3">
-                <div class="row">
+                <div class="row pt-2 ps-5">
                     <svg class="index-square" viewBox="0 0 24 24">
                         <rect x="2" y="2" width="20" height="20" />
                     </svg>
                 </div>
-                <div class="row d-flex justify-content-end">
+                <div class="row d-flex justify-content-end pe-5">
                     <svg class="index-circle" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10" />
                     </svg>

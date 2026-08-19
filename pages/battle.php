@@ -1,7 +1,7 @@
 <?php
 require_once '../config/db.php';
 
-$sql = "SELECT * FROM shapes ORDER BY id ASC LIMIT 3";
+$sql = "SELECT * FROM shapes ORDER BY shape_id ASC LIMIT 3";
 $result = mysqli_query($conn, $sql);
 
 if (!$result) {
@@ -56,13 +56,13 @@ $shapes = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
                     <?php
                     // Set variables for shapeCard.php
-                    $shapeId = $shape['id'];
+                    $shapeId = $shape['shape_id'];
                     $shapeDB = strtolower(trim($shape['shape']));
 
-                    $fillColour = $shape['fillcolour'] ?? "#FFFFFF";
-                    $strokeColour = $shape['borderColour'] ?? "#000000";
+                    $fillColour = $shape['fill_colour'] ?? "#FFFFFF";
+                    $strokeColour = $shape['border_colour'] ?? "#000000";
 
-                    $shapeLevel = $shape['shapeLevel'] ?? 1;
+                    $shapeLevel = $shape['shape_level'] ?? 1;
 
                     // Temporary ability
                     $abilityName = "Evasive";

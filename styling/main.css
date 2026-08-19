@@ -6,6 +6,13 @@
   --pal-red: #e3552d;
   --pal-blue: #0688c2;
   --pal-green: #35a668;
+
+  --pal-half-beige: rgba(244, 228, 195, 0.8);
+  --pal-half-pink: rgba(234, 126, 158, 0.8);
+  --pal-half-orange: rgba(247, 157, 8, 0.8);
+  --pal-half-red: rgba(227, 85, 45, 0.8);
+  --pal-half-blue: rgba(6, 136, 194, 0.8);
+  --pal-half-green: rgba(53, 166, 104, 0.8);
 }
 
 /*------------------------------Fonts------------------------------*/
@@ -132,6 +139,6 @@ nav {
 }
 
 /* Shape Cards */
-.shape-card{
+.shape-card {
   border: 10px solid;
 }

@@ -1,42 +1,42 @@
 @import url("./main.css");
 
 body {
-  background-color: #ea7e9e;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='107' height='107' viewBox='0 0 20 20'%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='%230688C2' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%230688C2' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+background-color: #F4E4C3;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 200 200'%3E%3Cpolygon fill='%2335A668' fill-opacity='0.5' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
 }
 
 nav,
 .logo-container:hover {
-  background-color: var(--pal-pink);
+  background-color: var(--pal-beige);
 }
 
 .logo-container,
 .navbar .nav-link.active,
 .nav-button:hover {
-  color: var(--pal-pink);
+  color: var(--pal-beige);
 }
 
 nav,
 .nav-button {
-  border-color: var(--pal-blue);
+  border-color: var(--pal-green);
 }
 
 .nav-title,
 .nav-button,
 .logo-container:hover {
-  color: var(--pal-blue);
+  color: var(--pal-green);
 }
 
 .logo-container,
 .navbar .nav-link.active,
 .nav-button:hover {
-  background-color: var(--pal-blue);
+  background-color: var(--pal-green);
 }
 
 .battle-title {
-  border: 10px solid var(--pal-blue);
-  color: var(--pal-blue);
-  background-color: var(--pal-pink);
+  border: 10px solid var(--pal-green);
+  color: var(--pal-green);
+  background-color: var(--pal-beige);
 }
 
 .shape {
@@ -48,17 +48,17 @@ nav,
 }
 
 .shape-card {
-  border: 10px solid var(--pal-blue);
-  background-color: rgba(234, 126, 158, 0.5);
+  border: 10px solid var(--pal-green);
+  background-color:  var(--pal-half-beige);
 }
 
 .dropdown {
-  border: 10px solid var(--pal-blue);
-  background-color: rgba(234, 126, 158, 0.5);
+  border: 10px solid var(--pal-green);
+  background-color:  var(--pal-half-beige);
 }
 
 .dropdown:hover {
-  background-color: var(--pal-blue);
+  background-color: var(--pal-half-green);
 }
 
 .dropdown-toggle {
@@ -67,22 +67,22 @@ nav,
 
 .opponent-box {
   height: 72%;
-  border: 10px solid var(--pal-blue);
-  color: var(--pal-blue);
-  background-color: var(--pal-pink);
+  border: 10px solid var(--pal-green);
+  color: var(--pal-green);
+  background-color: var(--pal-beige);
 }
 
-.opponent-box span{
-    font-size: clamp(10rem, 2.5vw, 10.5rem);
+.opponent-box span {
+  font-size: clamp(10rem, 2.5vw, 10.5rem);
 }
 
-.fight-btn{
-    background-color: var(--pal-blue);
-    border-radius: 0px;
-    color: var(--pal-pink);
+.fight-btn {
+  background-color: var(--pal-green);
+  border-radius: 0px;
+  color: var(--pal-beige);
 }
 
-.fight-btn:hover{
-    color: var(--pal-blue);
-    background-color: var(--pal-pink);
+.fight-btn:hover {
+  color: var(--pal-green);
+  background-color: var(--pal-beige);
 }
