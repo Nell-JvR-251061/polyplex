@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/githubBanner.png" alt="Banner">
+</div>
 
 # About
 PolyPlex was conceptualized from the following limitations: no images, everything must be for trade and all content only lasts a week!\
@@ -27,9 +30,26 @@ Additional documentation can be found under the design folder:
 ```
 polyplex/assets/design
 ```
-## ER Diagram
+## Entity–Relationship Diagram (ERD)
+<div align="center">
+  <img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/erd.png" alt="ER Diagram">
+</div>
 
 ## Wireframes
+<table>
+  <tr>
+    <td><img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/wireframes/homepage.png" width="100%"></td>
+    <td><img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/wireframes/battlePage.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/wireframes/login.png" width="100%"></td>
+    <td><img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/wireframes/dashboard.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/wireframes/sign-up.png" width="100%"></td>
+    <td><img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/wireframes/tradingPost.png" width="100%"></td>
+  </tr>
+</table>
 
 ## Development Process & Challenges
 Using HTML, CSS and PHP with a touch of JavaScript felt very nostalgic compared to the days of web development. I needed to take a step from the React-based approach of plug-in-based rapid development and take more care in creating my pages, components and functions from the ground up.
@@ -45,6 +65,10 @@ Integrating PHP into the project was another learning experience. Coming from a 
 PHP became the bridge between the frontend and the database. Of simply displaying static HTML I could retrieve information from MySQL process it on the server and then dynamically generate the appropriate content for the user.
 
 ## Mockups
+<div align="center">
+  <img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/mockupA.png" alt="Mockup A">
+  <img src="https://github.com/Nell-JvR-251061/polyplex/blob/main/assets/mockupB.png" alt="Mockup B">
+</div>
 
 # Installation
 Follow the steps below to install and run PolyPlex on a locally.
