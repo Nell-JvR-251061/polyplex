@@ -1,8 +1,8 @@
 @import url("./main.css");
 
 body {
-background-color: #F4E4C3;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 200 200'%3E%3Cpolygon fill='%2335A668' fill-opacity='0.5' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+  background-color: #f4e4c3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 200 200'%3E%3Cpolygon fill='%2335A668' fill-opacity='0.5' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
 }
 
 nav,
@@ -33,6 +33,15 @@ nav,
   background-color: var(--pal-green);
 }
 
+.navbar .navbar-toggler {
+    border-color: var(--pal-green); /* Your custom color */
+}
+
+/* Optional: Change the border color when clicked/focused */
+.navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.35rem var(--pal-green); /* Matches the border */
+}
+
 .battle-title {
   border: 10px solid var(--pal-green);
   color: var(--pal-green);
@@ -49,12 +58,12 @@ nav,
 
 .shape-card {
   border: 10px solid var(--pal-green);
-  background-color:  var(--pal-half-beige);
+  background-color: var(--pal-half-beige);
 }
 
 .dropdown {
   border: 10px solid var(--pal-green);
-  background-color:  var(--pal-half-beige);
+  background-color: var(--pal-half-beige);
 }
 
 .dropdown:hover {
@@ -63,6 +72,18 @@ nav,
 
 .dropdown-toggle {
   border: none;
+  width: 100%;
+}
+
+.dropdown-menu {
+  width: 109%;
+  border-radius: 0px;
+  border: 10px solid var(--pal-green);
+  background-color: var(--pal-beige);
+}
+
+.dropdown-item:hover{
+background-color: var(--pal-half-green);
 }
 
 .opponent-box {

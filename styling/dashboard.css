@@ -33,14 +33,15 @@ nav,
   background-color: var(--pal-green);
 }
 
-.user-banner, .battle-title{
+.user-banner,
+.battle-title {
   color: var(--pal-green);
   background-color: var(--pal-beige);
   border-top: 10px solid var(--pal-green);
   border-bottom: 10px solid var(--pal-green);
 }
 
-.battle-title{
+.battle-title {
   border-right: 10px solid var(--pal-green);
   border-left: 10px solid var(--pal-green);
 }
@@ -53,38 +54,57 @@ nav,
   stroke-width: 2;
 }
 
-.shape-card{
+.shape-card {
   border: 10px solid var(--pal-green);
   background-color: var(--pal-beige);
 }
 
-.dropdown{
-  border: 10px solid var(--pal-green); 
+.dropdown {
+  border: 10px solid var(--pal-green);
 }
 
-.dropdown:hover{
+.dropdown:hover {
   background-color: var(--pal-green);
   color: var(--pal-beige);
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
   border: none;
 }
 
-.trade-btn{
+.trade-btn {
   background-color: var(--pal-green);
   border-radius: 0px;
   color: var(--pal-beige);
 }
 
-.trade-btn:hover{
+.trade-btn:hover {
   color: var(--pal-green);
 }
 
-.stat-container{
-  border: 10px solid var(--pal-green); 
+.stat-container {
+  border: 10px solid var(--pal-green);
 }
 
-.stat-row{
+.stat-row {
   background-color: rgba(53, 166, 104, 0.5);
+}
+
+.save-team-btn {
+  background-color: var(--pal-green);
+  border-radius: 0px;
+  color: var(--pal-beige);
+}
+
+.save-team-btn:hover{
+  color: var(--pal-half-green);
+}
+
+.team-name-input{
+  border: 10px solid var(--pal-green);
+  background-color: var(--pal-beige);
+}
+
+.team-name-input:focus{
+  border: 10px solid var(--pal-green);
 }

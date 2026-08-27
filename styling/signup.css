@@ -56,8 +56,6 @@ nav,
 
 .login-submit-btn {
   background-color: var(--pal-red);
-  width: 50%;
-  margin-left: 25%;
   border-radius: 0px;
 }
 

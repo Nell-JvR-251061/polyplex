@@ -119,6 +119,16 @@ nav {
   padding-top: 10%;
 }
 
+.logo-container {
+  width: auto;
+  padding: 8px;
+}
+
+.logo span {
+  display: flex;
+  align-items: center;
+}
+
 .flipped {
   transform: scaleX(-1);
 }
@@ -132,6 +142,14 @@ nav {
   transition:
     background-color 0.3s ease,
     transform 0.2s ease;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus{
+  border-radius: 0px;
 }
 
 .profile-link {
