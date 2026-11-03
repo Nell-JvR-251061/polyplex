@@ -12,6 +12,7 @@ This lead me to creating polyplex as a geometry based, trading-auto-battler in w
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
 [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](https://www.w3schools.com/html/)
 [![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](https://www.w3schools.com/css/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff)](https://getbootstrap.com/)
 
 # Features
 - Shape-based visuals achieved by using SVG tags.
