@@ -169,14 +169,10 @@ foreach (['a', 'b', 'c'] as $position) {
     <div class="container-fluid">
         <div class="row d-flex justify-content-between ms-2 me-2">
             <div class="col-6 battle-left text-center">
-                <div class="row justify-content-center my-3">
-                    <form method="POST" class="d-flex justify-content-center align-items-center gap-2 ubuntu-regular">
+                <div class="row justify-content-center my-2">
+                    <form id="teamNameForm" method="POST" class="d-flex justify-content-center align-items-center gap-2 ubuntu-regular">
 
                         <input type="text" name="team_name" class="form-control team-name-input fs-2 ubuntu-bold text-center" value="<?= htmlspecialchars($team['team_name']) ?>" maxlength="50" required>
-
-                        <button type="submit" name="update_team_name" class="btn save-team-btn fs-4">
-                            Save
-                        </button>
 
                     </form>
 
@@ -214,6 +210,12 @@ foreach (['a', 'b', 'c'] as $position) {
                             </div>
                         </div>
                     <?php endforeach; ?>
+                </div>
+
+                <div class="row justify-content-center my-2 px-3">
+                    <button type="submit" form="teamNameForm" name="update_team_name" class="btn save-team-btn fs-4">
+                        Save
+                    </button>
                 </div>
             </div>
 

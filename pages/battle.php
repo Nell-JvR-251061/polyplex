@@ -118,26 +118,24 @@ foreach (['a', 'b', 'c'] as $position) {
     <link rel="stylesheet" href="../styling/battle.css">
 </head>
 
-<body>
+<body class="vh-100 d-flex flex-column">
 
     <header>
         <?php include '../components/nav.php'; ?>
     </header>
 
-    <div class="container-fluid mt-4">
+    <div class="container-fluid flex-grow-1 d-flex justify-content-center">
 
-        <div class="row d-flex justify-content-between ms-2 me-2">
+        <div class="row d-flex justify-content-between mx-5 w-100">
 
-            <div class="col-6 battle-left text-center">
-
-
+            <div class="col-6 p-0 battle-left text-center d-flex flex-column justify-content-center">
                 <div class="row">
                     <span class="battle-title my-3 p-1 fs-2 ubuntu-bold">
                         <?= htmlspecialchars($team['team_name']) ?>
                     </span>
                 </div>
 
-                <div class="row" id="team-shapes">
+                <div class="row battle-content m-0" id="team-shapes">
 
                     <?php foreach ($shapes as $index => $shape): ?>
 
@@ -209,7 +207,7 @@ foreach (['a', 'b', 'c'] as $position) {
             </div>
 
 
-            <div class="col-5 battle-right">
+            <div class="col-5 battle-right d-flex flex-column justify-content-center pb-2">
 
                 <div class="row">
 
@@ -219,7 +217,7 @@ foreach (['a', 'b', 'c'] as $position) {
 
                 </div>
 
-                <div class="row opponent-box text-center d-flex align-items-center my-2">
+                <div class="row battle-content opponent-box text-center d-flex align-items-center my-2">
 
                     <span class="ubuntu-bold">
                         ?
@@ -233,14 +231,14 @@ foreach (['a', 'b', 'c'] as $position) {
 
     </div>
 
-
-    <div class="col-12 d-flex justify-content-center">
+    <div class="col-12 d-flex justify-content-center mb-3">
 
         <button class="btn col-6 fight-btn fs-1 text-center ubuntu-bold">
             FIGHT!
         </button>
 
     </div>
+
 
 
     <script

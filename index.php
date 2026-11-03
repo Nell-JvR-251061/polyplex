@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="./styling/index.css">
 </head>
 
-<header>
-    <?php include './components/nav.php'; ?>
-</header>
 
-<body>
-    <div class="container-fluid mt-5">
-        <div class="row">
+<body class="vh-100 d-flex flex-column">
+    <header>
+        <?php include './components/nav.php'; ?>
+    </header>
+
+    <div class="container-fluid flex-grow-1 d-flex align-items-center justify-content-center">
+        <div class="row w-100">
             <div class="col ms-5 me-5 index-left p-3">
                 <div class="row pt-2 ps-5">
                     <svg class="index-square" viewBox="0 0 24 24">
@@ -36,9 +37,9 @@
                     </svg>
                 </div>
             </div>
-            <div class="col ms-5 me-5 index-right d-flex flex-column">
-                <span class="index-tag-line mb-3 ubuntu-bold text-center">It's time to fight!</span>
-                <span class="index-info-text inter-regular">Welcome to PolyPlex, a fast-paced auto battler where unique shapes become powerful fighters.
+            <div class="col ms-5 me-5 index-right d-flex flex-column justify-content-center">
+                <span class="index-tag-line mb-3 ubuntu-bold">It's time to fight!</span>
+                <span class="index-info-text inter-bold">Welcome to PolyPlex, a fast-paced auto battler where unique shapes become powerful fighters.
                     Build your squad, trade shapes with other players, and discover new strategies in a constantly
                     evolving world. Every season lasts just one week, after which all shapes reset, giving everyone
                     a fresh start and a new chance to climb the leaderboard. Adapt quickly, trade wisely, and prove

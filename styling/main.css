@@ -6,6 +6,7 @@
   --pal-red: #e3552d;
   --pal-blue: #0688c2;
   --pal-green: #35a668;
+  --pal-purple: #BC8DF3;
 
   --pal-half-beige: rgba(244, 228, 195, 0.8);
   --pal-half-pink: rgba(234, 126, 158, 0.8);
@@ -13,6 +14,22 @@
   --pal-half-red: rgba(227, 85, 45, 0.8);
   --pal-half-blue: rgba(6, 136, 194, 0.8);
   --pal-half-green: rgba(53, 166, 104, 0.8);
+  --pal-half-purple: rgb(188, 141, 243, 0.8);
+
+  /* Lighter shade (tint) by mixing with white */
+  --pal-half-red-light: {
+    background-color: color-mix(in oklch, var(--pal-half-red) 70%, white);
+  }
+
+  /* Darker shade by mixing with black */
+  .dark-shade {
+    background-color: color-mix(in oklch, var(--pal-half-red) 70%, black);
+  }
+
+  /* Subtle background using transparency */
+  .subtle-shade {
+    background-color: color-mix(in oklch, var(--pal-half-red) 20%, transparent);
+  }
 }
 
 /*------------------------------Fonts------------------------------*/
@@ -72,6 +89,13 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -144,11 +168,11 @@ nav {
     transform 0.2s ease;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   border-radius: 0px;
 }
 

@@ -247,7 +247,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </span>
     </div>
 
-    <div class="form-container d-flex justify-content-center">
+    <div class="form-container d-flex justify-content-center mb-5">
         <form id="signupForm" class="login-form col-8 p-4 d-flex flex-column">
             <div id="signupError" class="alert alert-danger d-none"></div>
             <div class="row">

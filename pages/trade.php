@@ -801,7 +801,7 @@ $abilities = mysqli_fetch_all(
     <div class="container-fluid">
 
         <div
-            class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4"
+            class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4 mb-5"
             id="shape-list">
 
 
