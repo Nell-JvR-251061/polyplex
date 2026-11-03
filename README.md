@@ -12,6 +12,7 @@ This lead me to creating polyplex as a geometry based, trading-auto-battler in w
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
 [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](https://www.w3schools.com/html/)
 [![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](https://www.w3schools.com/css/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff)](https://getbootstrap.com/)
 
 # Features
 - Shape-based visuals achieved by using SVG tags.
@@ -63,6 +64,9 @@ This allowed me to build relationships between parts of Polyplex such as users, 
 Integrating PHP into the project was another learning experience. Coming from a React-focused development approach I was used to components and client-side state management handling much of the application logic. PHP required me to think about how pages were generated and how information moved between the browser, server and database.
 
 PHP became the bridge between the frontend and the database. Of simply displaying static HTML I could retrieve information from MySQL process it on the server and then dynamically generate the appropriate content for the user.
+
+### Right Tool for Which Job
+Constantly I was getting caught up in which language and what feature of said languages to use to achieve my goals. I kept wanting to use PHP like JavaScript to program my logic and functions, however I was constantly reminded that PHP works server-side and is not ideal for manipulating elements at runtime. Luckily through a combination of PHP database communication  and JavaScript to interact with my HTML/CSS element, I was able to create the wanted functionalities.
 
 ## Mockups
 <div align="center">
@@ -300,4 +304,4 @@ MySQL     Running
 ### Finally Open a Browser and Navigate to: http://localhost/polyplex/
 
 ## Demonstration
-[PolyPlex Demo](https://drive.google.com/drive/u/3/folders/1wM7uSDNI_DfUhJdKLAUws4u9Z7kHwBdp)
+[PolyPlex Demo](https://drive.google.com/file/d/1vhd-ZlLUA-iE3Hc_E7oGBRVg_aIfF3i2/view?usp=sharing)
